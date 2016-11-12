@@ -1,0 +1,113 @@
+/* Coolors Exported Palette - coolors.co/2d2d2a-4c4c47-848fa5-c14953-e5dcc5 */
+/* RGB */
+* {
+  box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #2d2d2a;
+  color: #e5dcc5;
+  font-family: 'Rubik', sans-serif;
+  font-size: 25px; }
+
+.X {
+  color: #c14953; }
+
+.O {
+  color: #848fa5; }
+
+.game {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px; }
+
+.board {
+  position: relative;
+  top: 40px;
+  width: 100%;
+  height: 400px;
+  left: 50%;
+  transform: translateX(-50%); }
+
+.square {
+  float: left;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1%;
+  margin-right: 1%;
+  background: #4c4c47;
+  width: 30%;
+  height: 30%;
+  font-size: 80px; }
+
+.empty {
+  cursor: pointer;
+  transition: all 0.2s ease; }
+  .empty:hover {
+    background: #666660; }
+
+.score {
+  position: relative;
+  top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .score span {
+    margin-right: 25px; }
+  .score i {
+    margin-right: 10px; }
+
+.chooser {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  min-height: 100%;
+  background: rgba(45, 45, 42, 0.9); }
+
+.chooser-box {
+  padding: 20px;
+  border-radius: 3px;
+  background: #4c4c47;
+  color: #e5dcc5;
+  text-align: center;
+  -webkit-box-shadow: 3px 3px 11px 1px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: 3px 3px 11px 1px rgba(0, 0, 0, 0.51);
+  box-shadow: 3px 3px 11px 1px rgba(0, 0, 0, 0.51); }
+
+.choice {
+  position: relative;
+  margin: 20px;
+  display: inline-block;
+  font-size: 80px; }
+  .choice:hover {
+    cursor: pointer;
+    top: 1px;
+    left: 1px; }
+
+.result {
+  display: inline-block;
+  font-size: 35px;
+  text-align: center;
+  position: relative;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%); }
+
+.again {
+  padding: 10px;
+  margin: 10px;
+  font-size: 25px;
+  border: solid 2px #e5dcc5;
+  transition: all 0.2s ease; }
+  .again:hover {
+    background: #e5dcc5;
+    color: #2d2d2a;
+    cursor: pointer; }
