@@ -1,0 +1,35 @@
+{
+  "name": "tictactoe_dev",
+  "version": "1.0.0",
+  "description": "Tic-tac-toe game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sroelants/tictactoe_dev.git"
+  },
+  "keywords": [
+    "purescript",
+    "tictactoe",
+    "game"
+  ],
+  "author": "Sam Roelants",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sroelants/tictactoe_dev/issues"
+  },
+  "homepage": "https://github.com/sroelants/tictactoe_dev#readme",
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-if": "^2.0.1",
+    "gulp-purescript": "^1.0.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-useref": "^3.1.2"
+  }
+}
